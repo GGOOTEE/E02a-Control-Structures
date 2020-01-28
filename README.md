@@ -14,39 +14,69 @@ Comments in Python are marked by a # sign (for single-line comments) or three ma
 Edit README.md to answer the following questions:
 
 - Open main01.py. Before running it, what do you expect this program to do?
-  - Now right click on the main1.py window and select “Run Python File in Terminal”. Click in the bottom panel, and answer the question. Describe what happened.
+      A: Print Greetings!, then say "What is my favorite color?"
+  - Now right click on the main01.py window and select “Run Python File in Terminal”. Click in the bottom panel, and answer the question. Describe what happened.
+      A: There was nothing else for the terminal to execute so it quit
   - What do you think the program did with what you typed in answer to the question?
+      A: Took it as a user input but has no way of tracking it or doing anything with it
 - Open main02.py. Before running it, describe how this is different than main01.py.
+      A: This time it has kept a record of the answer and then prints it to the screen
   - What do you think the color = input() will do?
+      A: Creates a variable
   - Run the program in the terminal and answer the question. Did the program do what you expected?
+      A: Yes
 - Open main03.py. Before running it, describe how this is different than main02.py.
+      A: Sort of similar to a guessing game, only accepts red as a correct answer, if not red quit
   - What is happening on lines 9–12?
+      A: An if statment to set a parameter that if met quit with a certain print and an else with a similar parameter
   - Why are lines 10 and 12 indented?
+      A: To follow the parameter and not just print to screen
   - Run the program and answer the question. What happens if you don’t capitalize Red?
+      A: If answered with Red, program quits and uses if statement. If answered with red, else statement is used.
   - What does this tell you about "color"?
+      A: "color" is just a placeholder variable and can be any character(s)
 - Open main04.py. Before running it, describe how this is different than main03.py.
+      A: Added 'red' as a possible answer
   - What problem is this trying to solve?
+      A: lack of caps
   - Run the program and answer the question. What happens if you use some other capitalization scheme (i.e., “RED” or “reD“)?
+      A: only accepts Red and red
 - Open main05.py. What do you expect line 9 to do?
+      A: any CAP anywhere is acceptable
   - What problem is it trying to solve?
+      A: improper CAP usage
   - Run the program and answer the question. What happens if you add spaces before or after the word (i.e., “ RED “ or “ red”)?
+      A: spaces are not acceptable
  - Open main06.py. How is line 9 different than in main05.py?
+      A: adds the .strip()
    - What would you guess .strip() is doing?
+      A: allows spaces
    - Run the program and answer the question. Is there another way of writing “red” that will break this logic?
+      A: not actually sure, I dont think so
  - Open main07.py. Before running this program, how do you expect this to be different than main06.py?
+      A: adds a function that is a possible answer but does not grant the Correct!
    - What is happening on line 12?
+      A: adds a string of characters that is acceptable, creating a grey area, not right or wrong
    - Run the program and answer the question.
+      A: red is the correct, pink is close, anything else is try again
  - Open main08.py. What is the purpose of line 9?
+      A: To show that the answer will be red but there are other parameters to check
    - Why are lines 10–17 indented?
+      A: To follow the while because the while statement goes first witht the !=
    - Run the program. What would happen if line 10 were moved before line 9 (and no longer indented)?
+      A: red would be the answer but any other parameter would be ignored
    - Make that change and run the program again. (To end any Python program, you can type ctrl-c)
+      A: nothing happened at all
  - Open main09.py. What is happening on line 13?
+      A: count is the variable being used to keep track of the attempt, then the count +1 ups the count value by one when one attempt gets made
    - What is the purpose of “count”?
+      A: to track user input
    - What is happening on line 22?
+      A: I think you meant line 21 and that is where the count value is placed and printed to screen with text to give context
    - Run the program.
- - *Extra credit:* open main10.py. Add a comment to each line describing what it is doing (a comment follows a pound sign [#]).
+ - *Extra credit:* open main10.py. Add a comment to each line describing what it is doing (a comment follows a pound sign [#]).     A: done!
  - *Extra credit:* open main11.py. What is happening on lines 6-11?
-  
+      A: creates a string of variables that gets randomized with each time the program is run
 Commit your changes and push them back to the repository.
  
 
